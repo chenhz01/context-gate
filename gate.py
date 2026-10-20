@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2026 chenhz01 — see LICENSE, LICENSE-SPEC and NOTICE
 """context-gate — benchmark context-window truncation strategies.
 
 Compares head / tail / middle / head_tail / top_importance / hybrid truncation

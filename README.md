@@ -82,14 +82,14 @@ Python 3.9+. Nothing to `pip install` — stdlib only.
 # .github/workflows/gates.yml
 - uses: actions/checkout@v4
 
-- uses: chenhz01/context-gate@v0.1.2
+- uses: chenhz01/context-gate@v0.1.3
   with:
     # IMPORTANT: this path is inside YOUR repository.
     # The examples/ in this repo are NOT in your workspace — pass your own files.
     args: "bench --input path/to/units.json --budget 600"
 ```
 
-Pin the tag (`@v0.1.2`) rather than `@main` — `main` moves.
+Pin the tag (`@v0.1.3`) rather than `@main` — `main` moves.
 Check [Releases](https://github.com/chenhz01/context-gate/releases) for the newest tag; `v0.1.0` predates the
 fix that makes a mistyped path fail instead of silently passing.
 
