@@ -1,5 +1,5 @@
 name: context-gate
-description: Measure what truncation deletes, before the model starts guessing.
+description: Context window budget: measure what truncation deletes before the model starts guessing. Zero-dependency CLI.
 branding:
   icon: shield
   color: blue
