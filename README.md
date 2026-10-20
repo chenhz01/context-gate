@@ -55,7 +55,7 @@ Being explicit here is cheaper than a wrong expectation later.
 
 ## Exit codes
 
-`0` always — it prints a ranking, not a verdict. Gate on the `critical` column.
+`0` = the benchmark ran. `2` = bad input. **This is a measurement, not a gate:** exceeding `--budget` is reported, not enforced. Compare the strategies, then set your own ceiling.
 
 ## Install
 
